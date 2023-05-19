@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 # Prerequisites
-RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget
+RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-11-jdk wget
 
 # Set up new user
 RUN useradd -ms /bin/bash developer
